@@ -1,0 +1,15 @@
+<div class="flex-row row-to-column" id="portfolio">
+    <h2 class="flex-title">Portfolio</h2>
+    <div class="flex-row flex-content">
+        <div *ngFor="let project of projects" class="flex-project">
+            <h3>{{project.projecttitle}}</h3>
+            <div class="flex-image">
+                <img src="../../../assets/images/{{project.project_no}}.jpg" alt="{{project.imagealt}}"/>
+            </div>
+            <div class="flex-row-links">
+                <a href="{{project.githubrepo}}">GitHub Repository</a>
+                <a href="{{project.livelink}}">Live Application</a>
+            </div>
+        </div>
+    </div>
+</div>

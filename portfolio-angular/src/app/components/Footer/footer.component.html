@@ -1,0 +1,63 @@
+<footer>
+    <div class="reload-footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 24 38">
+            <g *ngFor="let gcd of greenCodeData">
+                <line *ngIf="gcd.bools[0]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="0 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[1]" [attr.x1]="0 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="0 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[2]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[3]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="2 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[4]" [attr.x1]="2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[5]" [attr.x1]="2 + gcd.translateX" [attr.y1]="2 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[6]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[7]" [attr.x1]="2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[8]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[9]" [attr.x1]="2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[10]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[11]" [attr.x1]="0 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[12]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[13]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="6 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[14]" [attr.x1]="2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[15]" [attr.x1]="2 + gcd.translateX" [attr.y1]="6 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[16]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[17]" [attr.x1]="2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[18]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[19]" [attr.x1]="2 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[20]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[21]" [attr.x1]="0 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+            </g>
+        </svg>
+    </div>
+    <div class="flex-row" id="logo-div">
+        <div><a href="https://github.com/cabralwilliams"><img src="../../../assets/images/GitHub-Mark-Light-32px.png" alt="Github logo" /></a></div>
+        <div><a href="https://www.linkedin.com/in/cabral-williams-8829366/"><img src="../../../assets/images/LI-In-Bug.png" alt="LinkedIn logo" class="logo1" /></a></div>
+        <div><a href="https://stackoverflow.com/users/17784199/cabralwilliams"><img src="https://stackoverflow.design/assets/img/logos/so/logo-stackoverflow.svg" alt="Stack Exchange Logo" class="logo2" /></a></div>
+    </div>
+    <div class="reload-footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 24 38">
+            <g *ngFor="let gcd of greenCodeData2">
+                <line *ngIf="gcd.bools[0]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="0 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[1]" [attr.x1]="0 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="0 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[2]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[3]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="2 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[4]" [attr.x1]="2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[5]" [attr.x1]="2 + gcd.translateX" [attr.y1]="2 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[6]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[7]" [attr.x1]="2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[8]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[9]" [attr.x1]="2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="2 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[10]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[11]" [attr.x1]="0 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="4 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[12]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[13]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="6 + gcd.translateY" [attr.x2]="-2 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[14]" [attr.x1]="2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[15]" [attr.x1]="2 + gcd.translateX" [attr.y1]="6 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[16]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[17]" [attr.x1]="2 + gcd.translateX" [attr.y1]="4 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[18]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[19]" [attr.x1]="2 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="6 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[20]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+                <line *ngIf="gcd.bools[21]" [attr.x1]="0 + gcd.translateX" [attr.y1]="8 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="8 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
+            </g>
+        </svg>
+    </div>
+</footer>
