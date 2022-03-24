@@ -3,15 +3,15 @@
     <form class="flex-column-start-left" id="flex-contact">
         <div>
             <label htmlFor="contact-name">Name: </label>
-            <input type="text" name="contact-name" placeholder="Your Name" class="width300" (blur)="validateInfo(event)" required/>
+            <input type="text" name="contact-name" placeholder="Your Name" class="width300" (blur)="validateInfo($event)" required/>
         </div>
         <div>
             <label htmlFor="email">Email: </label>
-            <input type="email" name="email" placeholder="Your Email" class="width300" (blur)="validateInfo(event)" required/>
+            <input type="email" name="email" placeholder="Your Email" class="width300" (blur)="validateInfo($event)" required/>
         </div>
         <div>
             <label htmlFor="message">Message: </label>
-            <textarea name="message" placeholder="There is no spoon..." class="width300" (blur)="validateInfo(event)" required></textarea>
+            <textarea name="message" placeholder="There is no spoon..." class="width300" (blur)="validateInfo($event)" required></textarea>
         </div>
         <div id="errorMessage" class="red-pill-font"></div>
         <div>

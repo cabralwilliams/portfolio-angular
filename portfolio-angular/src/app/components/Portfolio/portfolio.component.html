@@ -4,7 +4,7 @@
         <div *ngFor="let project of projects" class="flex-project">
             <h3>{{project.projecttitle}}</h3>
             <div class="flex-image">
-                <img src="../../../assets/images/{{project.project_no}}.jpg" alt="{{project.imagealt}}"/>
+                <img src="./assets/images/{{project.project_no}}.jpg" alt="{{project.imagealt}}"/>
             </div>
             <div class="flex-row-links">
                 <a href="{{project.githubrepo}}">GitHub Repository</a>

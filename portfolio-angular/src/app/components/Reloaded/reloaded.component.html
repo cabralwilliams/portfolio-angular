@@ -1,11 +1,11 @@
 <div id="reloaded">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 3 140 71">
-        <rect x="-10" y="-10" width="170" height="97" [attr.stroke]="none" [attr.fill]="bgColor" />
+        <rect x="-10" y="-10" width="170" height="97" stroke="none" [attr.fill]="bgColor" />
 
         <text x='17.75' y='44.75' fontSize='16' fill='#000000' fontFamily="Times New Roman, Times, serif">Cabral Williams</text>
         <text x='17' y='44' fontSize='16' fill='#46d22d' fontFamily="Times New Roman, Times, serif">Cabral Williams</text>
 
-        <rect x="-10" y="-10" width="170" height="97" [attr.stroke]="none" [attr.fill]="bgColor" opacity='0.3'/>
+        <rect x="-10" y="-10" width="170" height="97" stroke="none" [attr.fill]="bgColor" opacity='0.3'/>
         <g *ngFor="let gcd of greenCodeData">
             <line *ngIf="gcd.bools[0]" [attr.x1]="-2 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="0 + gcd.translateX" [attr.y2]="0 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
             <line *ngIf="gcd.bools[1]" [attr.x1]="0 + gcd.translateX" [attr.y1]="0 + gcd.translateY" [attr.x2]="2 + gcd.translateX" [attr.y2]="0 + gcd.translateY" [attr.stroke]="lineColor" [attr.stroke-width]="lineWidth" [attr.opacity]="opacity" />
